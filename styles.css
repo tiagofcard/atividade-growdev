@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: barlow;
+}
+
+.container-header {
+    width: 100%;
+    height: 50px;
+    background-color: #2d2a26;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.info-header {
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container-bagde {
+    width: 400px;
+    height: 500px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 0px #2d2a269d; 
+    border: 2px solid #2d2a26
+}
+
+.hole {
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    z-index: 1;
+    border: 2px solid #2d2a26
+}
+
+.line1 {
+    background-color: #FF7C0A;
+    width: 0;
+	height: 0;
+    position: absolute;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 300px solid;
+    border-top: 45px solid #FF7C0A;
+    z-index: 0;
+    top: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container-img {
+    height: 350px;
+    z-index: 1;
+}
+
+.img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.container-data {
+   
+}
+
+.data-list {
+    list-style: none;
+    color:#fff;
+}
+
+.container-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 { 
+    text-transform: uppercase;
+}
+
+.container-footer {
+    width: 100%;
+    height: 100px;
+    background-color: #2d2a26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 20px 0px;
+    cursor: pointer;
+  }
+
+.fa-facebook {
+    color: #EFEFEF;
+    font-size: 35px;
+    text-decoration: none;
+  }
+  .fa-instagram {
+    color: #EFEFEF;
+    font-size: 35px;
+    text-decoration: none;
+  }
+
+  .fa-whatsapp {
+    color: #EFEFEF;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .fa-linkedin {
+    color: #EFEFEF;
+    font-size: 35px;
+    text-decoration: none;
+  }
+
+  .fa-github {
+    color: #EFEFEF;
+    font-size: 35px;
+    text-decoration: none;
+  }
+
+  .fa-facebook:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-github:hover {
+    color: grey;
+  }
